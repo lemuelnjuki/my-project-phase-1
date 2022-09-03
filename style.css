@@ -190,3 +190,72 @@
     justify-content: center;
     flex-direction: column;
   }
+  #concept h2 {
+    font-size: 3.5rem;
+  }
+  .concept-main {
+    display: flex;
+    margin-top: 30px;
+  }
+  #concept .concept-main .concept-img {
+    background-image: url(img/PA7CSW1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 450px;
+  }
+  #concept .info {
+    width: 450px;
+    padding: 7px;
+  }
+  #concept b {
+    color: var(--four-color);
+    font-size: 2rem;
+  }
+  #concept .info div {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #concept .info-two {
+    width: 450px;
+    padding: 7px;
+  }
+  #concept .info-two div {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  #concept .info-two div p {
+    text-align: end;
+  }
+  #concept button {
+    margin-top: 15px;
+    padding: 15px 50px;
+    border: none;
+    background-color: var(--four-color);
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+  }
+  #concept button:hover {
+    background-color: var(--five-color);
+  }
+  article#choose-us {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #choose-us h2 {
+    font-size: 3.5rem;
+  }
+  #choose-us .choose {
+    display: flex;
+  }
