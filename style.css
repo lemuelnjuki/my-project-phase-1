@@ -168,3 +168,26 @@
   #book input[type='text']:focus {
     outline: none;
   }
+  #book input[type='button'] {
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px 0 20px 0;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: var(--third-color);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  #search input[type='button']:hover {
+    background-color: var(--four-color);
+    color: #000;
+  }
+  article#concept {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
