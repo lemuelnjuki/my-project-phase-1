@@ -259,3 +259,109 @@
   #choose-us .choose {
     display: flex;
   }
+  .choose div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 375px;
+    height: 250px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 30px 15px;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 10px 10px 46px -21px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 46px -21px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 46px -21px rgba(0, 0, 0, 0.5);
+  }
+  .choose div i {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    color: var(--five-color);
+  }
+  .choose div p {
+    text-align: center;
+    font-weight: 500;
+  }
+  .choose div:hover {
+    background-color: var(--four-color);
+  }
+  .choose div:hover i {
+    color: #000;
+  }
+  #subscribe .area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    width: 75%;
+    background: var(--main-color);
+    border-radius: 10px;
+  }
+  .area h2 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .input {
+    margin: 20px 0;
+  }
+  .area input {
+    padding: 15px;
+    width: 400px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .area input[type='button'] {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+  }
+  .area input[type='button']:hover {
+    background-color: rgba(51, 51, 51, 0.493);
+  }
+  footer {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer-area {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  footer h1 {
+    font-size: 3rem;
+  }
+  
+  .footer-area a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+  }
+  .footer-area a:hover {
+    color: #333;
+  }
+  .social-media a {
+    margin: 0 5px;
+  }
+  
+  .social-media a i {
+    font-size: 1.5rem;
+  }
+  .social-media a:hover {
+    color: #333;
+  }
+  
