@@ -1,0 +1,58 @@
+:root {
+    --main-color: #ffb900;
+    --second-color: #00ff62;
+    --third-color: #5900ff;
+    --four-color: #4dfce0;
+    --five-color: #ffd500;
+  }
+  .title{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+  }
+  .second{
+      font-size: xx-small;
+      position: relative;
+      top: 315px;
+  }
+  body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  header {
+    position: relative;
+    z-index: 1;
+    background-color: #000;
+    height: 750px;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(img/pexels-sascha-hormel-1095814.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(5px);
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+    color: #fff;
+  }
+  h1 b {
+    color: var(--main-color);
+  }
+  nav h1 {
+    font-size: 2.25rem;
+  }
