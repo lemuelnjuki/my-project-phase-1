@@ -7,3 +7,17 @@ const options = {
       'X-RapidAPI-Host': 'flixbus.p.rapidapi.com'
     }
   };
+  const homeButton = [
+    'search-buy',
+    'opener'
+];
+const ourDestinations =[
+    'concept'
+]
+    
+
+
+
+    
+    
+
