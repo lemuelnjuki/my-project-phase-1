@@ -23,4 +23,5 @@ The user can:1.book a bus from their current place to their destination.
 ## license information
 [MIT](LICENCE)
 
+## Copyright
 Copyright (c) 2022 Lemuel Njuki
