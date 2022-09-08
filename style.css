@@ -368,7 +368,9 @@
     padding: 10px;
     font-weight: 600;
   }
-  
+  .mail button:hover {
+    background: var(--second-color);
+  }
   .mail button {
     position: absolute;
     top: 2px;
@@ -382,6 +384,5 @@
     width: 35px;
     transition: all 0.4s ease;
   }
-  .mail button:hover {
-    background: var(--second-color);
-  }
+
+  
