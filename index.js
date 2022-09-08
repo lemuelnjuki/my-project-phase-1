@@ -7,13 +7,14 @@ const options = {
       'X-RapidAPI-Host': 'flixbus.p.rapidapi.com'
     }
   };
-  const homeButton = [
-    'search-buy',
-    'opener'
-];
-const ourDestinations =[
-    'concept'
-]
+  
+
+    fetch("https://flixbus.p.rapidapi.com/v1/cities")
+    .then(response => response.json()).
+    then((data) => { document.getElementById("transport").src = data.image
+    
+})
+
     
 
 

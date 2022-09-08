@@ -34,7 +34,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-image: url(bus\ image.png);
+    background-image: url(images/bus\ image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(destinations\ kenya.jpg);
+    background-image: url(images/destinations\ kenya.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -337,7 +337,7 @@
     font-size: 1rem;
     transition: all 0.4s ease;
     display: inline-block;
-    width: 200px;
+    width: 60px;
 
   }
   
