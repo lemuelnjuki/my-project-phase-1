@@ -23,7 +23,7 @@ The user can:1.book a bus from their current place to their destination.
 8.The website also has a comment section for users to add any feedback they have so as to help improve our service.
 ## live Github page link
 
-http://127.0.0.1:5500/
+ https://lemuelnjuki.github.io/my-project-phase-1/
 
 ## license information
 [MIT](LICENCE)
